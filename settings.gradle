@@ -1,0 +1,7 @@
+include ':domaiin'
+include ':domain'
+include ':data'
+include ':presentation'
+include ':lib'
+include ':app'
+rootProject.name = "IStore"
