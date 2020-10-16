@@ -51,7 +51,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     override fun onResume() {
-        checkAuthenticationState()
+   //     checkAuthenticationState()
 
         super.onResume()
 

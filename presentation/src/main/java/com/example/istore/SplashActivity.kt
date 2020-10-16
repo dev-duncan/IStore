@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.istore.auth.LoginActivity
 
 class SplashActivity : AppCompatActivity() {
     //After completion of 2000 ms, the next activity will get started.
@@ -25,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
             {
                 val i = Intent(
                     this@SplashActivity,
-                    HomeActivity::class.java,
+                    LoginActivity::class.java,
                 )
                 //Intent is used to switch from one activity to another.
                 startActivity(i)
